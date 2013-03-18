@@ -9,7 +9,7 @@ import urllib2
 import ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.read('/etc/ipbot.conf')
+config.read('/etc/xmppip.conf')
 
 # work with cfg
 user=(config.get('account', 'login'))
